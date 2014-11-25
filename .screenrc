@@ -1,0 +1,10 @@
+startup_message off
+
+# tab-completion flash in heading bar
+vbell off
+defscrollback 30000
+hardstatus on
+startup_message off
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
+multiuser on
+
