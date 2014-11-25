@@ -26,29 +26,7 @@ alias lm='ls -al |more'    # pipe through 'more'
 alias lr='ls -lR'          # recursive ls
 alias fixcmd='echo "\033[0m"'
 
-# Constants
-source .dot_files/constants/.colors-constants.sh
-source .dot_files/constants/.prompt-contants.sh
 
 # Git friendlt PS1
-source 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+source .dot_files/.git-colors.sh
 

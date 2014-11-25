@@ -4,9 +4,11 @@
 # curl -o ~/.git-prompt.sh \
 #     https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
 
-source git/.git-prompt.sh
-source constants/.colors-constants.sh
-source constants/.prompt-contants.sh
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+source ${DIR}/git/.git-prompt.sh
+source ${DIR}/constants/.colors-constants.sh
+source ${DIR}/constants/.prompt-contants.sh
 
 
 # PS1 snippet was adopted from code for MAC/BSD I saw from: 
