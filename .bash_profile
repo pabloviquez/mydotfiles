@@ -27,6 +27,8 @@ alias lr='ls -lR'          # recursive ls
 alias fixcmd='echo "\033[0m"'
 
 
+SELF_SCRIPT_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 # Git friendlt PS1
-source ./dot_files/.git-colors.sh
+source ${SELF_SCRIPT_PATH}/.dot_files/.git-colors.sh
 
