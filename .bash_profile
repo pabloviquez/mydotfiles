@@ -1,7 +1,7 @@
 # .bash_profile
 
 if [ -f ~/.bashrc ]; then
-    .~/.bashrc
+    source ~/.bashrc
 fi
 
 
@@ -28,5 +28,5 @@ alias fixcmd='echo "\033[0m"'
 
 
 # Git friendlt PS1
-source .dot_files/.git-colors.sh
+source ./dot_files/.git-colors.sh
 
